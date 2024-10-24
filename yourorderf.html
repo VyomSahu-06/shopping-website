@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Order</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<style>
+	body{
+		background-color: black;
+	}
+</style>
+</head>
+<body id="checkout-page">
+<div id="site">
+	<div id="content">
+		<h1 style="padding: 80px;">Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col" style="color: whitesmoke;">Item</th>
+					<th scope="col" style="color: whitesmoke;">Qty</th>
+					<th scope="col" style="color: whitesmoke;">Size</th>
+					<th scope="col" style="color: whitesmoke;">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<td><img src="C:\Users\vyom\Desktop\shopping website\w1.jpg"></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">1</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">m</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">₹3500</h1></td>
+			  </tbody>
+			  <tbody>
+				<td><img src="C:\Users\vyom\Desktop\shopping website\w2.jpg"></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">1</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">l</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">₹2550</h1></td>
+			  </tbody>
+			  <tbody>
+				<td><img src="C:\Users\vyom\Desktop\shopping website\w3.jpg"></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">1</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">xxl</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">₹8000</h1></td>
+			  </tbody>
+			  <tbody>
+				<td><img src="C:\Users\vyom\Desktop\shopping website\w4.jpg"></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">1</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">xs</h1></td>
+				<td><h1 style="color: whitesmoke !important; font-size: x-large;">₹650</h1></td>
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping" style="font-size:x-large ;">
+				<strong>Shipping</strong>: <span id="sshipping">₹100</span>
+			</p>
+			
+			<p id="sub-total" style="font-size: x-large;">
+				<strong>Total</strong>: <span id="stotal">₹14800</span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2 style="color: whitesmoke;">Your Data</h2>
+		 	<textarea name="mytext" rows="5" cols="125" style="background-color: black; color: whitesmoke;">Write here</textarea>
+		 </div>
+		 
+<form id="paypal-form" action="" method="post">
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="upload" value="1" />
+	<input type="hidden" name="business" value="" />
+        
+	<input type="hidden" name="currency_code" value="" />
+	<a href="index.html"><button style="background-color: rgb(130, 9, 9); padding: 15px; font-size: x-large;" type="button" class="btn btn-secondary" title="pay with paypal">
+	<i class="fa fa-shopping-cart"></i>Pay with Paypal</button></a>
+</form>
+		 
+		 
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		Copyright &copy; 
+	</footer>
+
+</body>
+</html>
